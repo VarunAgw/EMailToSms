@@ -42,6 +42,7 @@ var to_email = "You@YourDomain.com";
 var start_from = "yyyy/mm/dd";
 
 // Send only unread messages
+// Must set to true if you intend to use send_email()
 var only_unread = true;
 
 function process_email() {
